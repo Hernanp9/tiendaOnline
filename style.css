@@ -3,29 +3,40 @@
     padding: 0;
     text-align: center;
 }
+body{
+    background: linear-gradient(to right, #fdfcfc, #a0a3a1, rgb(249, 249, 247));
+    margin: 0;
+    padding: 0;
+}
+.navbar-toggler{
+    border-radius: 100%;
+}
 
+.contenedorLogo{
+    padding: 10px;
+}
 .logotipo{
     width: 40vw;
-    border-radius: 100%;
+    border-radius: 20%;
     margin-top: 10px;
     border: 2px black solid;
-    padding: 5px;
+    
     text-align: center;
    
 }
 
-.tituloPrincipal{
-    text-align: center;
-   margin-top: 60px;
-    
-    
-}
 
 .tituloPrincipal h1{
     font-size: 70px;
     font-family: 'Oswald', sans-serif;
-    background-color: black;
     color: white;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    -webkit-text-stroke: 1px #333;
+    color: rgb(8, 114, 79);
+    
 }
 
 .tituloTienda{
@@ -38,19 +49,25 @@
     font-size: 35px;
 }
 
-.col-sm-6{
+.row{
+    width: 100%;
     text-align: center;
-    margin: 10px;
-    width: 90vw;
-    margin-left: 35px;
+}
+.col-sm-6{
+    margin: -9px;
+    text-align: center;
+    width: 100vw;
+    
    
 }
 .col-sm-6 img{
     width: 50vw;
+    height: 30vh;
 
 }
 .card-body{
     border: black 30px inset;
+    width: 102vw;
 }
 
 
@@ -64,4 +81,56 @@ footer{
     border-top: 2px black outset;
     border-bottom: 2px black outset;
     width: 100vw;
+}
+
+
+/*
+
+77777777777777777777777777777777777777777777777777777777777777777
+remeras/////////////////////
+*/
+
+
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+
+
+/* Estilos para los productos */
+.producto {
+    margin: 65px;
+    width: 60vw;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+    
+
+}
+
+.producto img {
+    max-width: 100%;
+    height: auto;
+}
+
+.producto h2 {
+    margin-top: 10px;
+}
+
+.producto button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.producto button:hover {
+    background-color: #555;
 }
